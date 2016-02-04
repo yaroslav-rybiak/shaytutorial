@@ -2,6 +2,7 @@ body {
     font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
     color: rgb(100, 136, 128);
     font-weight: 100;
+    background-color: #293f50;;
 }
 
 .grid {
@@ -32,6 +33,7 @@ header {
     border-top: 4px solid rgb(100, 136, 128);
     padding-top: 40px;
     float: left;
+    color: #fff;
 }
 
 #header-right {
@@ -43,10 +45,12 @@ header {
 }
 
 .menu-header {
+    display: block;
     text-transform: uppercase;
     font-size: 14px;
     padding-top: 25px;
     font-weight: 400;
+    color: #fff;
 }
 
 #hero {
@@ -76,11 +80,20 @@ header {
     border-radius: 5px;
     padding: 20px 30px;
     text-decoration: none;
-    color: rgb(100, 136, 128);
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
 }
 
 .btn:hover {
     color: rgb(130, 166, 158);
+    background-color: #fff;
+}
+
+#articles {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #articles:before,
@@ -102,23 +115,6 @@ article {
     font-size: 20px;
     padding-top: 50px;
     font-weight: 300;
-}
-
-footer {
-    margin-top: 100px;
-}
-
-footer span {
-    font-weight: 400;
-    font-size: 14px;
-}
-
-
-.menu-footer {
-    font-size: 14px;
-    padding-top: 25px;
-    font-weight: 300;
-    float: right;
 }
 
 h6 {
@@ -147,9 +143,33 @@ article p {
 
 a {
     text-decoration: none;
-    color: rgb(100, 136, 128);
+    color: #fff;
 }
 
 a:hover {
-    color: rgb(130, 166, 158);
+    color: rgb(100, 136, 128);
+}
+
+#background {
+    position:absolute;
+    left:0;
+    right:0;
+    background-color: #fff;
+    padding-bottom: 80px;
+}
+
+footer {
+    margin-top: 300px;
+}
+
+footer span {
+    color: rgb(100, 136, 128);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.menu-footer {
+    font-size: 14px;
+    font-weight: 300;
+    float: right;
 }
